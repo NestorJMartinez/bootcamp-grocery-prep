@@ -62,7 +62,6 @@ const displayRecipe = (data) => {
    document.location.hash = id
    displayEasyText(data)
    displayInstructions(data)
-   //this is where I found that there's a for each loop in JS!
    displayServings(data)
    addRatings(data)
    displayRatings(ratingArray)
